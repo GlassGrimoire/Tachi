@@ -59,4 +59,5 @@ RUN mkdir node_modules .pnpm-store
 RUN echo "update-notifier=false" >> /home/tachi/.npmrc
 
 # keep container alive indefinitely
-ENTRYPOINT ["sh", "-c", "sudo chown -R tachi:tachi /tachi && exec /bin/fish"]
+# Exclude .git from chown to avoid permission errors on macOS Docker mounts
+ENTRYPOINT ["sh", "-c", "sudo find /tachi -maxdepth 1 ! -name '.git' ! -name '/tachi' -exec chown -R tachi:tachi {} + 2>/dev/null || true; exec /bin/fish"]
