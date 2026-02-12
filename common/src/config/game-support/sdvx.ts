@@ -15,17 +15,29 @@ export const SDVX_CONF = {
 
 export const SDVXDans = [
 	ClassValue("DAN_1", "LV.01", "1st Dan"),
+	ClassValue("DIVINE_DAN_1", "Divine LV.01", "Divine 1st Dan"),
 	ClassValue("DAN_2", "LV.02", "2nd Dan"),
+	ClassValue("DIVINE_DAN_2", "Divine LV.02", "Divine 2nd Dan"),
 	ClassValue("DAN_3", "LV.03", "3rd Dan"),
+	ClassValue("DIVINE_DAN_3", "Divine LV.3", "Divine 3rd Dan"),
 	ClassValue("DAN_4", "LV.04", "4th Dan"),
+	ClassValue("DIVINE_DAN_4", "Divine LV.4", "Divine 4th Dan"),
 	ClassValue("DAN_5", "LV.05", "5th Dan"),
+	ClassValue("DIVINE_DAN_5", "Divine LV.5", "Divine 5th Dan"),
 	ClassValue("DAN_6", "LV.06", "6th Dan"),
+	ClassValue("DIVINE_DAN_6", "Divine LV.6", "Divine 6th Dan"),
 	ClassValue("DAN_7", "LV.07", "7th Dan"),
+	ClassValue("DIVINE_DAN_7", "Divine LV.7", "Divine 7th Dan"),
 	ClassValue("DAN_8", "LV.08", "8th Dan"),
+	ClassValue("DIVINE_DAN_8", "Divine LV.8", "Divine 8th Dan"),
 	ClassValue("DAN_9", "LV.09", "9th Dan"),
+	ClassValue("DIVINE_DAN_9", "Divine LV.9", "Divine 9th Dan"),
 	ClassValue("DAN_10", "LV.10", "10th Dan"),
+	ClassValue("DIVINE_DAN_10", "Divine LV.10", "Divine 10th Dan"),
 	ClassValue("DAN_11", "LV.11", "11th Dan"),
+	ClassValue("DIVINE_DAN_11", "Divine LV.11", "Divine 11th Dan"),
 	ClassValue("INF", "LV.INF", "Inf. Dan"),
+	ClassValue("DIVINE_INF", "Divine LV.INF", "Divine Inf. Dan"),
 ];
 
 export const SDVXVFClasses = [
